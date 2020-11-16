@@ -1,4 +1,4 @@
-enum FSMError {
+pub enum FsmError {
     UnknownEventError,
     InvalidEventError,
     InTransitionError,
